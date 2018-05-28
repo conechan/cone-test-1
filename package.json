@@ -1,6 +1,6 @@
 {
   "name": "cone-test",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "cone-test",
   "license": "UNLICENSED",
   "author": "Charlie Chen <conechan@gmail.com>",
@@ -23,7 +23,11 @@
       "@commitlint/config-conventional"
     ],
     "rules": {
-      "subject-case": [0, "always", "lowerCase"]
+      "subject-case": [
+        0,
+        "always",
+        "lowerCase"
+      ]
     }
   },
   "husky": {
