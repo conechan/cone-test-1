@@ -21,7 +21,10 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "subject-case": [0, "always", "lowerCase"]
+    }
   },
   "husky": {
     "hooks": {
